@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?jt01k1');
+  src:  url('fonts/icomoon.eot?jt01k1#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?jt01k1') format('truetype'),
+    url('fonts/icomoon.woff?jt01k1') format('woff'),
+    url('fonts/icomoon.svg?jt01k1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-stop:before, .icon-play:before, .icon-pause:before, .icon-enlarge:before, .icon-volume-medium:before, .icon-volume-mute:before, .icon-backward:before,
+.icon-forward:before {
+  -webkit-text-stroke: 1.4px #eeeeee;
+  font-size: 20px;
+  color: transparent;
+}
+
+.icon-enlarge:before {
+  content: "\e98b";
+}
+.icon-play:before {
+  content: "\ea1c";
+}
+.icon-pause:before {
+  content: "\ea1d";
+}
+.icon-stop:before {
+  content: "\ea1e";
+}
+.icon-backward:before {
+  content: "\ea1f";
+}
+.icon-forward:before {
+  content: "\ea20";
+}
+.icon-volume-medium:before {
+  content: "\ea27";
+}
+.icon-volume-mute:before {
+  content: "\ea2a";
+}
